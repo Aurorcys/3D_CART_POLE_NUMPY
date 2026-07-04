@@ -1,7 +1,8 @@
 
 import numpy as np
 
-
+from Environment import Cartpole3D
+from ActorAndCritic import Actor, Critic
 
 
 def load_model(actor, critic, filename):
